@@ -26,15 +26,21 @@ a {
 .header__logo {
 }
 .header__nav {
-  font-family: Butcherman;
+ font-family:"Butcherman", sans-serif ;
      color: white; 
     font-size: 40px;
+    font-weight: 400;
 }
 .header__list {
+  display: flex;
+  gap: 50px;
+  
 }
 .header__item {
 }
-.header__link {
+.header__link:hover, 
+.header__link:focus {
+  color: rgb(199, 114, 11);
 }
 
 @media (max-width: 1000px) {
